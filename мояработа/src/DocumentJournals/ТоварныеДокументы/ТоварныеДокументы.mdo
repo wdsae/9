@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Товарные документы</value>
   </synonym>
+  <defaultForm>DocumentJournal.ТоварныеДокументы.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
   <registeredDocuments>Document.РеализацияТоваров</registeredDocuments>
@@ -31,4 +32,13 @@
     <references>Document.РеализацияТоваров.Attribute.Ответственный</references>
     <references>Document.ПоступлениеТоваров.Attribute.Ответственный</references>
   </columns>
+  <forms uuid="d8b30c73-b958-471f-9abf-3bcb97ea8e6f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DocumentJournal>
